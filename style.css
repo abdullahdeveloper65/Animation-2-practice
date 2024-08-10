@@ -1,0 +1,61 @@
+h1{
+   text-align: center;
+    color:red;
+    margin-top: 30%;
+    animation-duration: 3.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: abdullah;
+    animation-delay: 2s;
+    text-shadow: 4px 4px 10px rgb(0, 251, 255);
+}
+@keyframes abdullah {
+    to{
+        margin-left: 15%;
+    }
+    
+}
+div{
+    background-color: tomato;
+    height: 300px;
+    width: 26%;
+    border: solid 2px tomato;
+    animation-name: masood;
+    animation-delay: 2s;
+    animation-duration: 3.2s;
+
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: babar;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    text-shadow:4px 4px 10px red ;
+}
+h2:hover{
+    color: rgb(140, 255, 0);
+    text-shadow: 3px 3px 10px white;
+}
+@keyframes masood {
+    to{
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+    from{
+        margin-right: 7%;
+    }
+    
+}
+h1:hover{
+    color: azure;
+    text-shadow:4px 4px 10px rgb(30, 255, 0);
+}
+div:hover{
+    background-color: black;
+}
+@keyframes babar {
+    to{
+        margin-bottom: 9%;
+    }
+}
